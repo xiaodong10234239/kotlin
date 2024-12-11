@@ -1,0 +1,521 @@
+
+> Configure project :gradle-settings-conventions
+Using Kotlin Space bootstrap version 2.1.20-dev-3305 from https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap
+
+> Configure project :gradle-settings-conventions:develocity
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-settings-conventions:internal-gradle-setup
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-settings-conventions:jvm-toolchain-provisioning
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-settings-conventions:kotlin-daemon-config
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+The Kotlin Gradle plugin was loaded multiple times in different subprojects, which is not supported and may break the build.
+This might happen in subprojects that apply the Kotlin plugins with the Gradle 'plugins { ... }' DSL if they specify explicit versions, even if the versions are equal.
+Please add the Kotlin plugin to the common parent project or the root project, then remove the versions in the subprojects.
+If the parent project does not need the plugin, add 'apply false' to the plugin line.
+See: https://docs.gradle.org/current/userguide/plugins.html#sec:subprojects_plugins_dsl
+The Kotlin plugin was loaded in the following projects: ':develocity', ':internal-gradle-setup'
+
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-settings-conventions:develocity:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-settings-conventions:develocity:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:compileKotlin UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:compileKotlin UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:compileJava NO-SOURCE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:compileJava NO-SOURCE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:pluginDescriptors UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:pluginDescriptors UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:processResources UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:classes UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:processResources UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:classes UP-TO-DATE
+> Task :gradle-settings-conventions:develocity:jar UP-TO-DATE
+> Task :gradle-settings-conventions:jvm-toolchain-provisioning:jar UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:compileKotlin UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:compileJava NO-SOURCE
+> Task :gradle-settings-conventions:kotlin-daemon-config:pluginDescriptors UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:processResources UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:classes UP-TO-DATE
+> Task :gradle-settings-conventions:kotlin-daemon-config:jar UP-TO-DATE
+> Task :gradle-settings-conventions:internal-gradle-setup:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-settings-conventions:internal-gradle-setup:compileKotlin UP-TO-DATE
+> Task :gradle-settings-conventions:internal-gradle-setup:compileJava NO-SOURCE
+> Task :gradle-settings-conventions:internal-gradle-setup:pluginDescriptors UP-TO-DATE
+> Task :gradle-settings-conventions:internal-gradle-setup:processResources UP-TO-DATE
+> Task :gradle-settings-conventions:internal-gradle-setup:classes UP-TO-DATE
+> Task :gradle-settings-conventions:internal-gradle-setup:jar UP-TO-DATE
+
+> Configure project :native-build-tools
+Using Kotlin Space bootstrap version 2.1.20-dev-3305 from https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+bootstrapKotlinVersion=2.1.20-dev-3305
+w: The `kotlin.wasm.stability.nowarn` deprecated property is used in your build.
+Please, stop using it as it is unsupported and may apply no effect to your build.
+
+w: ATTENTION! This build uses the following Kotlin Gradle Plugin properties:
+
+kotlin.internal.suppress.buildToolsApiVersionConsistencyChecks
+
+Internal properties are not recommended for production use.
+Stability and future compatibility of the build is not guaranteed.
+
+
+> Configure project :gradle-build-conventions
+Using Kotlin Space bootstrap version 2.1.20-dev-3305 from https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap
+
+> Configure project :gradle-build-conventions:android-sdk-provisioner
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:asm-deprecating-transformer
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:binary-compatibility-extended
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:binaryen-configuration
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:buildsrc-compat
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:compiler-tests-convention
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:d8-configuration
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:generators
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:gradle-plugins-common
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:gradle-plugins-documentation
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Configure project :gradle-build-conventions:nodejs-configuration
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.20` that might work differently than in the requested version `2.1.20-dev-3305`.
+
+> Task :native-build-tools:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:buildsrc-compat:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:gradle-plugins-common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:d8-configuration:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:android-sdk-provisioner:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:buildsrc-compat:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:processResources UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:generateScriptPluginAdapters UP-TO-DATE
+> Task :native-build-tools:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :native-build-tools:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-common:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-common:compileJava NO-SOURCE
+> Task :gradle-build-conventions:gradle-plugins-common:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-common:processResources NO-SOURCE
+> Task :gradle-build-conventions:gradle-plugins-common:classes UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-common:jar UP-TO-DATE
+> Task :native-build-tools:compilePluginsBlocks FROM-CACHE
+> Task :native-build-tools:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :native-build-tools:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:compileJava NO-SOURCE
+> Task :gradle-build-conventions:d8-configuration:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:compileJava NO-SOURCE
+> Task :gradle-build-conventions:d8-configuration:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:processResources UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:classes UP-TO-DATE
+> Task :gradle-build-conventions:d8-configuration:jar UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :native-build-tools:compileKotlin FROM-CACHE
+> Task :native-build-tools:compileJava NO-SOURCE
+> Task :native-build-tools:pluginDescriptors UP-TO-DATE
+> Task :native-build-tools:processResources UP-TO-DATE
+> Task :native-build-tools:classes UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:compileJava NO-SOURCE
+> Task :gradle-build-conventions:buildsrc-compat:classes UP-TO-DATE
+> Task :gradle-build-conventions:buildsrc-compat:jar UP-TO-DATE
+> Task :native-build-tools:jar
+
+> Configure project :
+Using Kotlin Space bootstrap version 2.1.20-dev-3305 from https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap
+
+The Kotlin Gradle plugin was loaded multiple times in different subprojects, which is not supported and may break the build.
+This might happen in subprojects that apply the Kotlin plugins with the Gradle 'plugins { ... }' DSL if they specify explicit versions, even if the versions are equal.
+Please add the Kotlin plugin to the common parent project or the root project, then remove the versions in the subprojects.
+If the parent project does not need the plugin, add 'apply false' to the plugin line.
+See: https://docs.gradle.org/current/userguide/plugins.html#sec:subprojects_plugins_dsl
+The Kotlin plugin was loaded in the following projects: ':android-sdk-provisioner', ':prepare-deps'
+
+> Configure project :analysis
+w: The `kotlin.wasm.stability.nowarn` deprecated property is used in your build.
+Please, stop using it as it is unsupported and may apply no effect to your build.
+
+w: ATTENTION! This build uses the following Kotlin Gradle Plugin properties:
+
+kotlin.internal.suppress.buildToolsApiVersionConsistencyChecks
+
+Internal properties are not recommended for production use.
+Stability and future compatibility of the build is not guaranteed.
+
+
+> Task :gradle-build-conventions:gradle-plugins-documentation:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:gradle-plugins-documentation:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:compileJava NO-SOURCE
+> Task :gradle-build-conventions:gradle-plugins-documentation:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:processResources UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:classes UP-TO-DATE
+> Task :gradle-build-conventions:gradle-plugins-documentation:jar UP-TO-DATE
+
+> Configure project :kotlin-compiler-client-embeddable
+Removed :kotlin-compiler project dependency from configuration ':kotlin-compiler-client-embeddable:testCompilerClasspath'
+
+> Configure project :kotlin-compiler-embeddable
+Removed :kotlin-compiler project dependency from configuration ':kotlin-compiler-embeddable:compilerJar'
+
+> Configure project :kotlin-dom-api-compat
+w: 'kotlin-js' Gradle plugin is deprecated and will be removed in the future.
+Please use 'kotlin("multiplatform")' plugin with a 'js()' target instead. See the migration guide: https://kotl.in/t6m3vu
+
+> Task :gradle-build-conventions:binary-compatibility-extended:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:asm-deprecating-transformer:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:binary-compatibility-extended:generateBcvProperties UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:processResources UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:classes UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:android-sdk-provisioner:jar UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:binary-compatibility-extended:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:binary-compatibility-extended:compileJava NO-SOURCE
+> Task :gradle-build-conventions:binary-compatibility-extended:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:compileJava NO-SOURCE
+> Task :gradle-build-conventions:binary-compatibility-extended:processResources UP-TO-DATE
+> Task :gradle-build-conventions:binary-compatibility-extended:classes UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:processResources UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:classes UP-TO-DATE
+> Task :gradle-build-conventions:binary-compatibility-extended:jar UP-TO-DATE
+> Task :gradle-build-conventions:asm-deprecating-transformer:jar UP-TO-DATE
+
+> Configure project :kotlin-main-kts
+Removed :kotlin-compiler project dependency from configuration ':kotlin-main-kts:proguardLibraryJars'
+
+> Configure project :kotlin-native
+bootstrapKotlinVersion1111=2.1.20-dev-3305
+bootstrapKotlinVersion2222=2.1.20-dev-3305
+
+> Configure project :kotlin-scripting-ide-services-test
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-ide-services-test:testRuntimeOnly'
+
+> Configure project :kotlin-scripting-ide-services-unshaded
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-ide-services-unshaded:publishedRuntime'
+
+> Configure project :kotlin-scripting-jsr223-test
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-jsr223-test:testRuntimeOnly'
+
+> Configure project :kotlin-scripting-jsr223-unshaded
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-jsr223-unshaded:publishedRuntime'
+
+> Configure project :kotlin-scripting-jvm-host-test
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-jvm-host-test:testRuntimeOnly'
+
+> Configure project :kotlin-scripting-jvm-host-unshaded
+Removed :kotlin-compiler project dependency from configuration ':kotlin-scripting-jvm-host-unshaded:publishedRuntime'
+
+> Configure project :kotlin-stdlib
+Apparently kotlin bootstrap just happened. And @ExperimentalWasmDsl annotation was moved to a new FQN.
+Please replace 'org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl'
+with 'org.jetbrains.kotlin.gradle.ExperimentalWasmDsl'
+and remove this check.
+
+Please note that the same check exists in kotlin-test module. Fix it there too.
+w: The Default Kotlin Hierarchy Template was not applied to 'project ':kotlin-stdlib'':
+Explicit .dependsOn() edges were configured for the following source sets:
+[nativeKotlinTestCommon, nativeMain, nativeTest, nativeWasmMain, nativeWasmTest, wasmCommonMain, wasmCommonTest, wasmJsMain, wasmJsTest, wasmWasiMain, wasmWasiTest]
+
+Consider removing dependsOn-calls or disabling the default template by adding
+    'kotlin.mpp.applyDefaultHierarchyTemplate=false'
+to your gradle.properties
+
+Learn more about hierarchy templates: https://kotl.in/hierarchy-template
+
+
+> Configure project :kotlin-test
+Apparently kotlin bootstrap just happened. And @ExperimentalWasmDsl annotation was moved to a new FQN.
+Please replace 'org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl'
+with 'org.jetbrains.kotlin.gradle.ExperimentalWasmDsl'
+and remove this check.
+
+Please note that the same check exists in kotlin-stdlib module. Fix it there too.
+w: Following Kotlin Source Set groups can't depend on 'annotationsCommonMain' together as they belong to different Kotlin Source Set Trees.
+Source Sets from 'main' Tree:
+  * 'jsMain'
+  * 'wasmCommonMain'
+Source Sets from 'JUnit' Tree:
+  * 'jvmJUnit'
+Source Sets from 'JUnit5' Tree:
+  * 'jvmJUnit5'
+Source Sets from 'TestNG' Tree:
+  * 'jvmTestNG'
+
+Please keep dependsOn edges only from one group and remove the others.
+
+w: Following Kotlin Source Set groups can't depend on 'commonTest' together as they belong to different Kotlin Source Set Trees.
+Source Sets from 'test' Tree:
+  * 'jsTest'
+  * 'jvmTest'
+  * 'wasmJsTest'
+  * 'wasmWasiTest'
+Source Sets from 'JUnit5Test' Tree:
+  * 'jvmJUnit5Test'
+Source Sets from 'JUnitTest' Tree:
+  * 'jvmJUnitTest'
+Source Sets from 'TestNGTest' Tree:
+  * 'jvmTestNGTest'
+
+Please keep dependsOn edges only from one group and remove the others.
+
+
+> Configure project :kotlinx-atomicfu-runtime
+w: 'kotlin-js' Gradle plugin is deprecated and will be removed in the future.
+Please use 'kotlin("multiplatform")' plugin with a 'js()' target instead. See the migration guide: https://kotl.in/t6m3vu
+
+> Task :gradle-build-conventions:generators:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:generators:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :gradle-build-conventions:generators:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:generators:compilePluginsBlocks FROM-CACHE
+> Task :gradle-build-conventions:generators:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :gradle-build-conventions:generators:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:generators:compileKotlin FROM-CACHE
+> Task :gradle-build-conventions:generators:compileJava NO-SOURCE
+> Task :gradle-build-conventions:generators:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:generators:processResources UP-TO-DATE
+> Task :gradle-build-conventions:generators:classes UP-TO-DATE
+> Task :gradle-build-conventions:generators:jar
+> Task :gradle-build-conventions:compiler-tests-convention:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:compiler-tests-convention:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:compileKotlin FROM-CACHE
+> Task :gradle-build-conventions:compiler-tests-convention:compileJava NO-SOURCE
+> Task :gradle-build-conventions:compiler-tests-convention:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:processResources UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:classes UP-TO-DATE
+> Task :gradle-build-conventions:compiler-tests-convention:jar UP-TO-DATE
+
+> Configure project :examples:scripting-jvm-simple-script-host
+Removed :kotlin-compiler project dependency from configuration ':examples:scripting-jvm-simple-script-host:testRuntimeOnly'
+
+> Configure project :kotlin-native:dependencies
+kotlinBuildProperties.konanDataDir=null
+
+> Configure project :native:kotlin-klib-commonizer
+Removed :kotlin-compiler project dependency from configuration ':native:kotlin-klib-commonizer:publishedCompile'
+
+> Configure project :plugins:jvm-abi-gen
+Removed :kotlin-compiler project dependency from configuration ':plugins:jvm-abi-gen:testRuntimeOnly'
+
+> Task :gradle-build-conventions:binaryen-configuration:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:nodejs-configuration:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-build-conventions:nodejs-configuration:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:compilePluginsBlocks UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:generateScriptPluginAdapters UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:compileJava NO-SOURCE
+> Task :gradle-build-conventions:nodejs-configuration:compileKotlin UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:processResources UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:classes UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:compileJava NO-SOURCE
+> Task :gradle-build-conventions:nodejs-configuration:pluginDescriptors UP-TO-DATE
+> Task :gradle-build-conventions:binaryen-configuration:jar UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:processResources UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:classes UP-TO-DATE
+> Task :gradle-build-conventions:nodejs-configuration:jar UP-TO-DATE
+
+> Configure project :kotlin-native:prepare:kotlin-native-compiler-embeddable
+Removed :kotlin-compiler project dependency from configuration ':kotlin-native:prepare:kotlin-native-compiler-embeddable:compilerJar'
+Removed :kotlin-compiler project dependency from configuration ':kotlin-native:prepare:kotlin-native-compiler-embeddable:kotlinNativeEmbedded'
+
+> Configure project :plugins:js-plain-objects:runtime
+w: 'kotlin-js' Gradle plugin is deprecated and will be removed in the future.
+Please use 'kotlin("multiplatform")' plugin with a 'js()' target instead. See the migration guide: https://kotl.in/t6m3vu
+
+> Configure project :plugins:plugin-sandbox:plugin-annotations
+w: Please choose a JavaScript environment to build distributions and run tests.
+Not choosing any of them will be an error in the future releases.
+kotlin {
+    js {
+        // To build distributions for and run tests use one or several of:
+        browser()
+        nodejs()
+    }
+}
+
+
+> Configure project :plugins:compose-compiler-plugin:compiler-hosted:integration-tests
+w: The Default Kotlin Hierarchy Template was not applied to 'project ':plugins:compose-compiler-plugin:compiler-hosted:integration-tests'':
+Explicit .dependsOn() edges were configured for the following source sets:
+[jvmTest]
+
+Consider removing dependsOn-calls or disabling the default template by adding
+    'kotlin.mpp.applyDefaultHierarchyTemplate=false'
+to your gradle.properties
+
+Learn more about hierarchy templates: https://kotl.in/hierarchy-template
+
+
+> Configure project :plugins:compose-compiler-plugin:compiler-hosted:runtime-tests
+w: The Default Kotlin Hierarchy Template was not applied to 'project ':plugins:compose-compiler-plugin:compiler-hosted:runtime-tests'':
+Explicit .dependsOn() edges were configured for the following source sets:
+[jvmTest]
+
+Consider removing dependsOn-calls or disabling the default template by adding
+    'kotlin.mpp.applyDefaultHierarchyTemplate=false'
+to your gradle.properties
+
+Learn more about hierarchy templates: https://kotl.in/hierarchy-template
+
+Local build profile is active (proguard is off, jar compression is off). Use -Pteamcity=<true|false> to reproduce CI/local build
+
+> Task :kotlin-native:endorsedLibraries:kotlinx.cli:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-test:kotlin-test-js-it:prepareKotlinIdeaImport UP-TO-DATE
+> Task :plugins:plugin-sandbox:plugin-annotations:prepareKotlinIdeaImport UP-TO-DATE
+> Task :plugins:compose-compiler-plugin:compiler-hosted:integration-tests:prepareKotlinIdeaImport UP-TO-DATE
+> Task :plugins:compose-compiler-plugin:compiler-hosted:runtime-tests:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-stdlib-jvm-minimal-for-test:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-test:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-stdlib-js-ir-minimal-for-test:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-native:Interop:Runtime:prepareSharedSourcesForJvm UP-TO-DATE
+> Task :kotlin-native:Interop:Runtime:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-stdlib:prepareJsIrMainSources UP-TO-DATE
+> Task :kotlin-stdlib:prepareKotlinTestCommonNativeSources UP-TO-DATE
+> Task :commonizeNativeDistribution UP-TO-DATE
+> Task :commonize UP-TO-DATE
+> Task :prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:objcexport-header-generator:testExtensionsLibrary:prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:analysis-api-klib-reader:testProject:prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:objcexport-header-generator:testInternalLibrary:prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:objcexport-header-generator:testLibraryA:prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:objcexport-header-generator:testLibraryB:prepareKotlinIdeaImport UP-TO-DATE
+> Task :prepareKotlinBuildScriptModel UP-TO-DATE
+> Task :native:objcexport-header-generator:testLibraryC:prepareKotlinIdeaImport UP-TO-DATE
+> Task :kotlin-stdlib:prepareWasmBuiltinSources UP-TO-DATE
+> Task :kotlin-stdlib:prepareKotlinIdeaImport UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:ios_arm64FrameworkCopy UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropXCTestIosArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropTestXCTestIosArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:ios_simulator_arm64FrameworkCopy UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropXCTestIosSimulatorArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropTestXCTestIosSimulatorArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:ios_x64FrameworkCopy UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropXCTestIosX64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropTestXCTestIosX64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macos_arm64FrameworkCopy UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropXCTestMacosArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropTestXCTestMacosArm64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macos_x64FrameworkCopy UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropXCTestMacosX64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:cinteropTestXCTestMacosX64 UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:commonizeCInterop UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:copyCommonizeCInteropForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:commonize UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosArm64Cinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosArm64TestCinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosSimulatorArm64Cinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosSimulatorArm64TestCinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosX64Cinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:iosX64TestCinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macosArm64Cinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macosArm64TestCinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macosX64Cinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:macosX64TestCinterop-XCTestKlib UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformCommonMainCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformNativeMainCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformAppleMainCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformCommonTestCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformNativeTestCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformAppleTestCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformIosMainCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformIosTestCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformMacosMainCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:transformMacosTestCInteropDependenciesMetadataForIde UP-TO-DATE
+> Task :native:kotlin-test-native-xctest:prepareKotlinIdeaImport UP-TO-DATE
+Download https://cache-redirector.jetbrains.com/androidx.dev/snapshots/builds/12259959/artifacts/repository/androidx/compose/runtime/runtime-jvmstubs/1.8.0-SNAPSHOT/maven-metadata.xml, took 1 s 866 ms
+Download https://cache-redirector.jetbrains.com/androidx.dev/snapshots/builds/12259959/artifacts/repository/androidx/compose/runtime/runtime-test-utils-jvmstubs/1.8.0-SNAPSHOT/maven-metadata.xml, took 1 s 958 ms
+[Incubating] Problems report is available at: file:///Users/wxd/Documents/kmp/kotlin/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 59s
+171 actionable tasks: 2 executed, 9 from cache, 160 up-to-date

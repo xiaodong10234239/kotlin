@@ -1,0 +1,4 @@
+depends = posix
+package = platform.log
+headers = hilog/log.h
+linkerOpts = -lhilog_ndk.z

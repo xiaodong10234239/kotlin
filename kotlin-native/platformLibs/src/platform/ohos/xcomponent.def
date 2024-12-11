@@ -1,0 +1,5 @@
+depends = posix
+package = platform.ace
+headers =  ace/xcomponent/native_interface_xcomponent.h ace/xcomponent/native_xcomponent_key_event.h
+
+linkerOpts = -lace_ndk.z

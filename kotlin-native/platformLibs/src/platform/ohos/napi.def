@@ -1,0 +1,3 @@
+depends = posix
+package = platform.napi
+headers = napi/common.h napi/native_api.h
